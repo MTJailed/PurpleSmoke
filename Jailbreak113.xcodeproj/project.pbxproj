@@ -16,6 +16,10 @@
 		1D81AF6720925D2B00AD16BF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D81AF6620925D2B00AD16BF /* main.m */; };
 		1D81AF7120925D2C00AD16BF /* Jailbreak113Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D81AF7020925D2C00AD16BF /* Jailbreak113Tests.m */; };
 		1D81AF7C20925D2C00AD16BF /* Jailbreak113UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D81AF7B20925D2C00AD16BF /* Jailbreak113UITests.m */; };
+		1D81AF8A20925D4800AD16BF /* offsets.c in Sources */ = {isa = PBXBuildFile; fileRef = 1D81AF8920925D4700AD16BF /* offsets.c */; };
+		1D81AF8F20925D9E00AD16BF /* sploit.c in Sources */ = {isa = PBXBuildFile; fileRef = 1D81AF8E20925D9E00AD16BF /* sploit.c */; };
+		1D81AF9320925DBA00AD16BF /* infoleak.c in Sources */ = {isa = PBXBuildFile; fileRef = 1D81AF9220925DBA00AD16BF /* infoleak.c */; };
+		1D81AF9520925DC700AD16BF /* jailbreak.c in Sources */ = {isa = PBXBuildFile; fileRef = 1D81AF9420925DC700AD16BF /* jailbreak.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +57,15 @@
 		1D81AF7720925D2C00AD16BF /* Jailbreak113UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Jailbreak113UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1D81AF7B20925D2C00AD16BF /* Jailbreak113UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Jailbreak113UITests.m; sourceTree = "<group>"; };
 		1D81AF7D20925D2C00AD16BF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1D81AF8920925D4700AD16BF /* offsets.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = offsets.c; sourceTree = "<group>"; };
+		1D81AF8B20925D4D00AD16BF /* offsets.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = offsets.h; sourceTree = "<group>"; };
+		1D81AF8C20925D5200AD16BF /* ikot.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ikot.h; sourceTree = "<group>"; };
+		1D81AF8D20925D5800AD16BF /* jailbreak.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = jailbreak.h; sourceTree = "<group>"; };
+		1D81AF8E20925D9E00AD16BF /* sploit.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = sploit.c; sourceTree = "<group>"; };
+		1D81AF9020925DA500AD16BF /* sploit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = sploit.h; sourceTree = "<group>"; };
+		1D81AF9120925DAA00AD16BF /* infoleak.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = infoleak.h; sourceTree = "<group>"; };
+		1D81AF9220925DBA00AD16BF /* infoleak.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = infoleak.c; sourceTree = "<group>"; };
+		1D81AF9420925DC700AD16BF /* jailbreak.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = jailbreak.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +120,15 @@
 				1D81AF5520925D2700AD16BF /* AppDelegate.m */,
 				1D81AF5720925D2700AD16BF /* ViewController.h */,
 				1D81AF5820925D2700AD16BF /* ViewController.m */,
+				1D81AF8C20925D5200AD16BF /* ikot.h */,
+				1D81AF8B20925D4D00AD16BF /* offsets.h */,
+				1D81AF8920925D4700AD16BF /* offsets.c */,
+				1D81AF8D20925D5800AD16BF /* jailbreak.h */,
+				1D81AF9420925DC700AD16BF /* jailbreak.c */,
+				1D81AF9020925DA500AD16BF /* sploit.h */,
+				1D81AF8E20925D9E00AD16BF /* sploit.c */,
+				1D81AF9120925DAA00AD16BF /* infoleak.h */,
+				1D81AF9220925DBA00AD16BF /* infoleak.c */,
 				1D81AF5A20925D2700AD16BF /* Main.storyboard */,
 				1D81AF6020925D2B00AD16BF /* Assets.xcassets */,
 				1D81AF6220925D2B00AD16BF /* LaunchScreen.storyboard */,
@@ -265,10 +287,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1D81AF8F20925D9E00AD16BF /* sploit.c in Sources */,
+				1D81AF9520925DC700AD16BF /* jailbreak.c in Sources */,
+				1D81AF8A20925D4800AD16BF /* offsets.c in Sources */,
 				1D81AF5920925D2700AD16BF /* ViewController.m in Sources */,
 				1D81AF5F20925D2700AD16BF /* Jailbreak113.xcdatamodeld in Sources */,
 				1D81AF6720925D2B00AD16BF /* main.m in Sources */,
 				1D81AF5620925D2700AD16BF /* AppDelegate.m in Sources */,
+				1D81AF9320925DBA00AD16BF /* infoleak.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -440,6 +466,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 376SZ86J7X;
 				INFOPLIST_FILE = Jailbreak113/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -457,6 +484,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 376SZ86J7X;
 				INFOPLIST_FILE = Jailbreak113/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
