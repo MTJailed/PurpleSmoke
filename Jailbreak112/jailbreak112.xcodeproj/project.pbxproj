@@ -1,0 +1,732 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D3E2178207E9EF600E4CBC2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3E2177207E9EF600E4CBC2 /* AppDelegate.m */; };
+		1D3E217B207E9EF600E4CBC2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3E217A207E9EF600E4CBC2 /* ViewController.m */; };
+		1D3E217E207E9EF600E4CBC2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1D3E217C207E9EF600E4CBC2 /* Main.storyboard */; };
+		1D3E2181207E9EF700E4CBC2 /* jailbreak112.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1D3E217F207E9EF700E4CBC2 /* jailbreak112.xcdatamodeld */; };
+		1D3E2183207E9EF700E4CBC2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1D3E2182207E9EF700E4CBC2 /* Assets.xcassets */; };
+		1D3E2186207E9EF700E4CBC2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1D3E2184207E9EF700E4CBC2 /* LaunchScreen.storyboard */; };
+		1D3E2189207E9EF700E4CBC2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3E2188207E9EF700E4CBC2 /* main.m */; };
+		1D3E2193207E9EF700E4CBC2 /* jailbreak112Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3E2192207E9EF700E4CBC2 /* jailbreak112Tests.m */; };
+		1D3E219E207E9EF700E4CBC2 /* jailbreak112UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3E219D207E9EF700E4CBC2 /* jailbreak112UITests.m */; };
+		1D3E21AD207E9F1C00E4CBC2 /* jailbreak.c in Sources */ = {isa = PBXBuildFile; fileRef = 1D3E21AB207E9F1C00E4CBC2 /* jailbreak.c */; };
+		1D3E21B1207E9F5300E4CBC2 /* bazadleak.c in Sources */ = {isa = PBXBuildFile; fileRef = 1D3E21AF207E9F5300E4CBC2 /* bazadleak.c */; };
+		1D3E21B4207EA4A900E4CBC2 /* IOKit.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D3E21B3207EA4A900E4CBC2 /* IOKit.tbd */; };
+		EA4F9AE220A1F6E700AA2593 /* unsandbox.c in Sources */ = {isa = PBXBuildFile; fileRef = EA4F9AE020A1F6E700AA2593 /* unsandbox.c */; };
+		EA4F9AE520A238AD00AA2593 /* lorgnette.c in Sources */ = {isa = PBXBuildFile; fileRef = EA4F9AE320A238AD00AA2593 /* lorgnette.c */; };
+		EADF4E1A209E6E6D00E12B1A /* offsets.c in Sources */ = {isa = PBXBuildFile; fileRef = EADF4E19209E6E6D00E12B1A /* offsets.c */; };
+		EADF4E1D209F54D900E12B1A /* reboot.c in Sources */ = {isa = PBXBuildFile; fileRef = EADF4E1B209F54D900E12B1A /* reboot.c */; };
+		EADF4E20209F581800E12B1A /* sploit.c in Sources */ = {isa = PBXBuildFile; fileRef = EADF4E1E209F581800E12B1A /* sploit.c */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1D3E218F207E9EF700E4CBC2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1D3E216B207E9EF600E4CBC2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1D3E2172207E9EF600E4CBC2;
+			remoteInfo = jailbreak112;
+		};
+		1D3E219A207E9EF700E4CBC2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1D3E216B207E9EF600E4CBC2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1D3E2172207E9EF600E4CBC2;
+			remoteInfo = jailbreak112;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1D3E2173207E9EF600E4CBC2 /* jailbreak112.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = jailbreak112.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1D3E2176207E9EF600E4CBC2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1D3E2177207E9EF600E4CBC2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1D3E2179207E9EF600E4CBC2 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		1D3E217A207E9EF600E4CBC2 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		1D3E217D207E9EF600E4CBC2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1D3E2180207E9EF700E4CBC2 /* jailbreak112.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = jailbreak112.xcdatamodel; sourceTree = "<group>"; };
+		1D3E2182207E9EF700E4CBC2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1D3E2185207E9EF700E4CBC2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1D3E2187207E9EF700E4CBC2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1D3E2188207E9EF700E4CBC2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1D3E218E207E9EF700E4CBC2 /* jailbreak112Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = jailbreak112Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1D3E2192207E9EF700E4CBC2 /* jailbreak112Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = jailbreak112Tests.m; sourceTree = "<group>"; };
+		1D3E2194207E9EF700E4CBC2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1D3E2199207E9EF700E4CBC2 /* jailbreak112UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = jailbreak112UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1D3E219D207E9EF700E4CBC2 /* jailbreak112UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = jailbreak112UITests.m; sourceTree = "<group>"; };
+		1D3E219F207E9EF700E4CBC2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1D3E21AB207E9F1C00E4CBC2 /* jailbreak.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = jailbreak.c; sourceTree = "<group>"; };
+		1D3E21AC207E9F1C00E4CBC2 /* jailbreak.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = jailbreak.h; sourceTree = "<group>"; };
+		1D3E21AE207E9F3400E4CBC2 /* offsets.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = offsets.h; sourceTree = "<group>"; };
+		1D3E21AF207E9F5300E4CBC2 /* bazadleak.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = bazadleak.c; sourceTree = "<group>"; };
+		1D3E21B0207E9F5300E4CBC2 /* bazadleak.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = bazadleak.h; sourceTree = "<group>"; };
+		1D3E21B3207EA4A900E4CBC2 /* IOKit.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = IOKit.tbd; path = jailbreak112/IOKit/IOKit.tbd; sourceTree = "<group>"; };
+		1DF718CE208A43B6002A88AC /* IOMobileFramebuffer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOMobileFramebuffer.framework; path = jailbreak112/IOMobileFramebuffer.framework; sourceTree = "<group>"; };
+		EA4F9AE020A1F6E700AA2593 /* unsandbox.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = unsandbox.c; sourceTree = "<group>"; };
+		EA4F9AE120A1F6E700AA2593 /* unsandbox.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = unsandbox.h; sourceTree = "<group>"; };
+		EA4F9AE320A238AD00AA2593 /* lorgnette.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = lorgnette.c; sourceTree = "<group>"; };
+		EA4F9AE420A238AD00AA2593 /* lorgnette.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = lorgnette.h; sourceTree = "<group>"; };
+		EA4F9AE620A238DC00AA2593 /* lorgnette-structs.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "lorgnette-structs.h"; sourceTree = "<group>"; };
+		EADF4E19209E6E6D00E12B1A /* offsets.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = offsets.c; sourceTree = "<group>"; };
+		EADF4E1B209F54D900E12B1A /* reboot.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = reboot.c; path = Assets.xcassets/reboot.c; sourceTree = "<group>"; };
+		EADF4E1C209F54D900E12B1A /* reboot.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = reboot.h; path = Assets.xcassets/reboot.h; sourceTree = "<group>"; };
+		EADF4E1E209F581800E12B1A /* sploit.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = sploit.c; sourceTree = "<group>"; };
+		EADF4E1F209F581800E12B1A /* sploit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = sploit.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D3E2170207E9EF600E4CBC2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D3E21B4207EA4A900E4CBC2 /* IOKit.tbd in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1D3E218B207E9EF700E4CBC2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1D3E2196207E9EF700E4CBC2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1D3E216A207E9EF600E4CBC2 = {
+			isa = PBXGroup;
+			children = (
+				1D3E2175207E9EF600E4CBC2 /* jailbreak112 */,
+				1D3E2191207E9EF700E4CBC2 /* jailbreak112Tests */,
+				1D3E219C207E9EF700E4CBC2 /* jailbreak112UITests */,
+				1D3E2174207E9EF600E4CBC2 /* Products */,
+				1D3E21B2207EA4A900E4CBC2 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		1D3E2174207E9EF600E4CBC2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D3E2173207E9EF600E4CBC2 /* jailbreak112.app */,
+				1D3E218E207E9EF700E4CBC2 /* jailbreak112Tests.xctest */,
+				1D3E2199207E9EF700E4CBC2 /* jailbreak112UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1D3E2175207E9EF600E4CBC2 /* jailbreak112 */ = {
+			isa = PBXGroup;
+			children = (
+				1D4C31252087FFFE000A2F84 /* DistributionLayer */,
+				1D4C31232087FFD7000A2F84 /* LogicLayer */,
+				1D4C31222087FFB7000A2F84 /* PresentationLayer */,
+			);
+			path = jailbreak112;
+			sourceTree = "<group>";
+		};
+		1D3E2191207E9EF700E4CBC2 /* jailbreak112Tests */ = {
+			isa = PBXGroup;
+			children = (
+				1D3E2192207E9EF700E4CBC2 /* jailbreak112Tests.m */,
+				1D3E2194207E9EF700E4CBC2 /* Info.plist */,
+			);
+			path = jailbreak112Tests;
+			sourceTree = "<group>";
+		};
+		1D3E219C207E9EF700E4CBC2 /* jailbreak112UITests */ = {
+			isa = PBXGroup;
+			children = (
+				1D3E219D207E9EF700E4CBC2 /* jailbreak112UITests.m */,
+				1D3E219F207E9EF700E4CBC2 /* Info.plist */,
+			);
+			path = jailbreak112UITests;
+			sourceTree = "<group>";
+		};
+		1D3E21B2207EA4A900E4CBC2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1DF718CE208A43B6002A88AC /* IOMobileFramebuffer.framework */,
+				1D3E21B3207EA4A900E4CBC2 /* IOKit.tbd */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1D4C31222087FFB7000A2F84 /* PresentationLayer */ = {
+			isa = PBXGroup;
+			children = (
+				1D3E2176207E9EF600E4CBC2 /* AppDelegate.h */,
+				1D3E2177207E9EF600E4CBC2 /* AppDelegate.m */,
+				1D3E2179207E9EF600E4CBC2 /* ViewController.h */,
+				1D3E217A207E9EF600E4CBC2 /* ViewController.m */,
+				1D3E217C207E9EF600E4CBC2 /* Main.storyboard */,
+				1D3E2182207E9EF700E4CBC2 /* Assets.xcassets */,
+				1D3E2184207E9EF700E4CBC2 /* LaunchScreen.storyboard */,
+				1D3E2187207E9EF700E4CBC2 /* Info.plist */,
+				1D3E2188207E9EF700E4CBC2 /* main.m */,
+				1D3E217F207E9EF700E4CBC2 /* jailbreak112.xcdatamodeld */,
+			);
+			name = PresentationLayer;
+			sourceTree = "<group>";
+		};
+		1D4C31232087FFD7000A2F84 /* LogicLayer */ = {
+			isa = PBXGroup;
+			children = (
+				1D4C312C208806B8000A2F84 /* Utillities */,
+				1D4C312820880047000A2F84 /* Initialization */,
+				1D4C31272088003F000A2F84 /* Kernel */,
+				1D4C312620880038000A2F84 /* Sandbox */,
+			);
+			name = LogicLayer;
+			sourceTree = "<group>";
+		};
+		1D4C31252087FFFE000A2F84 /* DistributionLayer */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = DistributionLayer;
+			sourceTree = "<group>";
+		};
+		1D4C312620880038000A2F84 /* Sandbox */ = {
+			isa = PBXGroup;
+			children = (
+				EA4F9AE020A1F6E700AA2593 /* unsandbox.c */,
+				EA4F9AE120A1F6E700AA2593 /* unsandbox.h */,
+				EA4F9AE320A238AD00AA2593 /* lorgnette.c */,
+				EA4F9AE420A238AD00AA2593 /* lorgnette.h */,
+				EA4F9AE620A238DC00AA2593 /* lorgnette-structs.h */,
+			);
+			name = Sandbox;
+			sourceTree = "<group>";
+		};
+		1D4C31272088003F000A2F84 /* Kernel */ = {
+			isa = PBXGroup;
+			children = (
+				1D3E21B0207E9F5300E4CBC2 /* bazadleak.h */,
+				1D3E21AF207E9F5300E4CBC2 /* bazadleak.c */,
+				1D3E21AC207E9F1C00E4CBC2 /* jailbreak.h */,
+				1D3E21AB207E9F1C00E4CBC2 /* jailbreak.c */,
+				EADF4E1E209F581800E12B1A /* sploit.c */,
+				EADF4E1F209F581800E12B1A /* sploit.h */,
+			);
+			name = Kernel;
+			sourceTree = "<group>";
+		};
+		1D4C312820880047000A2F84 /* Initialization */ = {
+			isa = PBXGroup;
+			children = (
+				1D3E21AE207E9F3400E4CBC2 /* offsets.h */,
+				EADF4E19209E6E6D00E12B1A /* offsets.c */,
+			);
+			name = Initialization;
+			sourceTree = "<group>";
+		};
+		1D4C312C208806B8000A2F84 /* Utillities */ = {
+			isa = PBXGroup;
+			children = (
+				EADF4E1B209F54D900E12B1A /* reboot.c */,
+				EADF4E1C209F54D900E12B1A /* reboot.h */,
+			);
+			name = Utillities;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D3E2172207E9EF600E4CBC2 /* jailbreak112 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D3E21A2207E9EF700E4CBC2 /* Build configuration list for PBXNativeTarget "jailbreak112" */;
+			buildPhases = (
+				1D3E216F207E9EF600E4CBC2 /* Sources */,
+				1D3E2170207E9EF600E4CBC2 /* Frameworks */,
+				1D3E2171207E9EF600E4CBC2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = jailbreak112;
+			productName = jailbreak112;
+			productReference = 1D3E2173207E9EF600E4CBC2 /* jailbreak112.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1D3E218D207E9EF700E4CBC2 /* jailbreak112Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D3E21A5207E9EF700E4CBC2 /* Build configuration list for PBXNativeTarget "jailbreak112Tests" */;
+			buildPhases = (
+				1D3E218A207E9EF700E4CBC2 /* Sources */,
+				1D3E218B207E9EF700E4CBC2 /* Frameworks */,
+				1D3E218C207E9EF700E4CBC2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1D3E2190207E9EF700E4CBC2 /* PBXTargetDependency */,
+			);
+			name = jailbreak112Tests;
+			productName = jailbreak112Tests;
+			productReference = 1D3E218E207E9EF700E4CBC2 /* jailbreak112Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1D3E2198207E9EF700E4CBC2 /* jailbreak112UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D3E21A8207E9EF700E4CBC2 /* Build configuration list for PBXNativeTarget "jailbreak112UITests" */;
+			buildPhases = (
+				1D3E2195207E9EF700E4CBC2 /* Sources */,
+				1D3E2196207E9EF700E4CBC2 /* Frameworks */,
+				1D3E2197207E9EF700E4CBC2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1D3E219B207E9EF700E4CBC2 /* PBXTargetDependency */,
+			);
+			name = jailbreak112UITests;
+			productName = jailbreak112UITests;
+			productReference = 1D3E2199207E9EF700E4CBC2 /* jailbreak112UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1D3E216B207E9EF600E4CBC2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = "Jailed Inc";
+				TargetAttributes = {
+					1D3E2172207E9EF600E4CBC2 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					1D3E218D207E9EF700E4CBC2 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 1D3E2172207E9EF600E4CBC2;
+					};
+					1D3E2198207E9EF700E4CBC2 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 1D3E2172207E9EF600E4CBC2;
+					};
+				};
+			};
+			buildConfigurationList = 1D3E216E207E9EF600E4CBC2 /* Build configuration list for PBXProject "jailbreak112" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1D3E216A207E9EF600E4CBC2;
+			productRefGroup = 1D3E2174207E9EF600E4CBC2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D3E2172207E9EF600E4CBC2 /* jailbreak112 */,
+				1D3E218D207E9EF700E4CBC2 /* jailbreak112Tests */,
+				1D3E2198207E9EF700E4CBC2 /* jailbreak112UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D3E2171207E9EF600E4CBC2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D3E2186207E9EF700E4CBC2 /* LaunchScreen.storyboard in Resources */,
+				1D3E2183207E9EF700E4CBC2 /* Assets.xcassets in Resources */,
+				1D3E217E207E9EF600E4CBC2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1D3E218C207E9EF700E4CBC2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1D3E2197207E9EF700E4CBC2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D3E216F207E9EF600E4CBC2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA4F9AE220A1F6E700AA2593 /* unsandbox.c in Sources */,
+				EADF4E1A209E6E6D00E12B1A /* offsets.c in Sources */,
+				1D3E217B207E9EF600E4CBC2 /* ViewController.m in Sources */,
+				1D3E2178207E9EF600E4CBC2 /* AppDelegate.m in Sources */,
+				1D3E2189207E9EF700E4CBC2 /* main.m in Sources */,
+				1D3E21B1207E9F5300E4CBC2 /* bazadleak.c in Sources */,
+				EADF4E1D209F54D900E12B1A /* reboot.c in Sources */,
+				1D3E21AD207E9F1C00E4CBC2 /* jailbreak.c in Sources */,
+				EADF4E20209F581800E12B1A /* sploit.c in Sources */,
+				EA4F9AE520A238AD00AA2593 /* lorgnette.c in Sources */,
+				1D3E2181207E9EF700E4CBC2 /* jailbreak112.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1D3E218A207E9EF700E4CBC2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D3E2193207E9EF700E4CBC2 /* jailbreak112Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1D3E2195207E9EF700E4CBC2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D3E219E207E9EF700E4CBC2 /* jailbreak112UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1D3E2190207E9EF700E4CBC2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1D3E2172207E9EF600E4CBC2 /* jailbreak112 */;
+			targetProxy = 1D3E218F207E9EF700E4CBC2 /* PBXContainerItemProxy */;
+		};
+		1D3E219B207E9EF700E4CBC2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1D3E2172207E9EF600E4CBC2 /* jailbreak112 */;
+			targetProxy = 1D3E219A207E9EF700E4CBC2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1D3E217C207E9EF600E4CBC2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1D3E217D207E9EF600E4CBC2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1D3E2184207E9EF700E4CBC2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1D3E2185207E9EF700E4CBC2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1D3E21A0207E9EF700E4CBC2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		1D3E21A1207E9EF700E4CBC2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1D3E21A3207E9EF700E4CBC2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = NO;
+				CLANG_WARN_STRICT_PROTOTYPES = NO;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 376SZ86J7X;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/jailbreak112",
+				);
+				INFOPLIST_FILE = jailbreak112/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/jailbreak112/IOKit",
+				);
+				OTHER_LDFLAGS = (
+					"-pagezero_size",
+					0x16000,
+					"-framework",
+					IOKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ml.jailed.jailbreak112;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				USER_HEADER_SEARCH_PATHS = "$(PROJECT_DIR)/**";
+				WARNING_LDFLAGS = "";
+			};
+			name = Debug;
+		};
+		1D3E21A4207E9EF700E4CBC2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = NO;
+				CLANG_WARN_STRICT_PROTOTYPES = NO;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 376SZ86J7X;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/jailbreak112",
+				);
+				INFOPLIST_FILE = jailbreak112/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/jailbreak112/IOKit",
+				);
+				OTHER_LDFLAGS = (
+					"-pagezero_size",
+					0x16000,
+					"-framework",
+					IOKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ml.jailed.jailbreak112;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				USER_HEADER_SEARCH_PATHS = "$(PROJECT_DIR)/**";
+				WARNING_LDFLAGS = "";
+			};
+			name = Release;
+		};
+		1D3E21A6207E9EF700E4CBC2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 376SZ86J7X;
+				INFOPLIST_FILE = jailbreak112Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ml.jailed.jailbreak112Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/jailbreak112.app/jailbreak112";
+			};
+			name = Debug;
+		};
+		1D3E21A7207E9EF700E4CBC2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 376SZ86J7X;
+				INFOPLIST_FILE = jailbreak112Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ml.jailed.jailbreak112Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/jailbreak112.app/jailbreak112";
+			};
+			name = Release;
+		};
+		1D3E21A9207E9EF700E4CBC2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 376SZ86J7X;
+				INFOPLIST_FILE = jailbreak112UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ml.jailed.jailbreak112UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = jailbreak112;
+			};
+			name = Debug;
+		};
+		1D3E21AA207E9EF700E4CBC2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 376SZ86J7X;
+				INFOPLIST_FILE = jailbreak112UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ml.jailed.jailbreak112UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = jailbreak112;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D3E216E207E9EF600E4CBC2 /* Build configuration list for PBXProject "jailbreak112" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D3E21A0207E9EF700E4CBC2 /* Debug */,
+				1D3E21A1207E9EF700E4CBC2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1D3E21A2207E9EF700E4CBC2 /* Build configuration list for PBXNativeTarget "jailbreak112" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D3E21A3207E9EF700E4CBC2 /* Debug */,
+				1D3E21A4207E9EF700E4CBC2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1D3E21A5207E9EF700E4CBC2 /* Build configuration list for PBXNativeTarget "jailbreak112Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D3E21A6207E9EF700E4CBC2 /* Debug */,
+				1D3E21A7207E9EF700E4CBC2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1D3E21A8207E9EF700E4CBC2 /* Build configuration list for PBXNativeTarget "jailbreak112UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D3E21A9207E9EF700E4CBC2 /* Debug */,
+				1D3E21AA207E9EF700E4CBC2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		1D3E217F207E9EF700E4CBC2 /* jailbreak112.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				1D3E2180207E9EF700E4CBC2 /* jailbreak112.xcdatamodel */,
+			);
+			currentVersion = 1D3E2180207E9EF700E4CBC2 /* jailbreak112.xcdatamodel */;
+			path = jailbreak112.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 1D3E216B207E9EF600E4CBC2 /* Project object */;
+}
