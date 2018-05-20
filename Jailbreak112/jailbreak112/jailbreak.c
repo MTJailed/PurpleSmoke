@@ -54,7 +54,7 @@ int jailbreak()
         printf("osdata_get_metaclass: %#llx\n", osdata_get_metaclass);
         printf("osserialize_serialize: %#llx\n", osserializer_serialize);
         printf("proc_task: %#llx\n", proc_task);
-        printf("lel0_sync_vec64_long: %#llx\n\n", kernelptr_bazad;
+        printf("lel0_sync_vec64_long: %#llx\n\n", kernelptr_bazad);
         
     } else {
         printf("Failed to leak a kernel pointer.\n", NULL);
