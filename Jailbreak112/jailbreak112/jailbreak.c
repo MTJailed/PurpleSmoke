@@ -46,7 +46,7 @@ int jailbreak()
         allproc = default_offsets.allproc + kaslr_shift;
         realhost = default_offsets.realhost + kaslr_shift;
         proc_task = default_offsets.proc_task + kaslr_shift;
-        printf("kernelinfo leak: %#llx\n", kernelptr_bazad);
+        printf("lel0_sync_vec64_long: %#llx\n\n", kernelptr_bazad);
         printf("kaslr_shift: %#llx\n", kaslr_shift);
         printf("kernel base: %#llx\n", kernel_text_base);
         printf("allproc: %#llx\n", allproc);
@@ -54,7 +54,6 @@ int jailbreak()
         printf("osdata_get_metaclass: %#llx\n", osdata_get_metaclass);
         printf("osserialize_serialize: %#llx\n", osserializer_serialize);
         printf("proc_task: %#llx\n", proc_task);
-        printf("lel0_sync_vec64_long: %#llx\n\n", kernelptr_bazad);
         
     } else {
         printf("Failed to leak a kernel pointer.\n", NULL);
