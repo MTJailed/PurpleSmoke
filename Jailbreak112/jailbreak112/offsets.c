@@ -29,7 +29,7 @@ void init_offsets_iphone61_11_2()
     default_offsets.lel0_sync_vec64_long = 0xfffffff00d88d25c;
 }
 
-//iPhone 6S on 11.2
+//iPhone 6S N71AP on 11.2
 void init_offsets_iphone81_11_2()
 {
     default_offsets.kernel_base = 0xfffffff01a204000;
@@ -39,6 +39,18 @@ void init_offsets_iphone81_11_2()
     default_offsets.realhost = 0xfffffff0075c0b98;
     default_offsets.proc_task =  0xfffffff0073e250c;
     default_offsets.lel0_sync_vec64_long = 0xfffffff01a29925c;
+}
+
+//iPhone 6S+ N66AP on 11.2
+void init_offsets_iphone82_11_2_6()
+{
+    default_offsets.kernel_base = 0xfffffff00d804000; //should be the same
+    default_offsets.osdata_metaclass = 0;
+    default_offsets.osserializer_serialize = 0;
+    default_offsets.osserializer_serialize = 0;
+    default_offsets.realhost = 0;
+    default_offsets.proc_task = 0;
+    default_offsets.lel0_sync_vec64_long = 0xfffffff00d88d25c;
 }
 
 //iPhone 7 on 11.2
@@ -140,6 +152,23 @@ int init_offsets()
         }
         return OFF_ERR_UNKNOWN;
     }
+
+    //iPhone 6S+ N66AP
+    else if(strncmp(kvers.machine, "iPhone8,2", sizeof("iPhone8,2")) == 0)
+    {
+        
+        //iOS 11.2.6
+        if(strcmp(build, "15D100") == 0)
+        {
+            printf("Supported!\n");
+            init_offsets_iphone82_11_2_6();
+            return OFF_ERR_SUCCESS;
+        } else {
+            printf("Unsupported!\n");
+            return OFF_ERR_UNKNOWN;
+        }
+        return OFF_ERR_UNKNOWN;
+    }
     
     //iPhone 7
     else if(strncmp(kvers.machine, "iPhone9,3", sizeof("iPhone9,3")) == 0)
@@ -158,7 +187,7 @@ int init_offsets()
         return OFF_ERR_UNKNOWN;
     }
     
-    //iPhone 7
+    //iPhone 8+
     else if(strncmp(kvers.machine, "iPhone10,5", sizeof("iPhone10,5")) == 0)
     {
         
