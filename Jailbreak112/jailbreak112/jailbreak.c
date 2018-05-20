@@ -53,7 +53,8 @@ int jailbreak()
         printf("realhost: %#llx\n", realhost);
         printf("osdata_get_metaclass: %#llx\n", osdata_get_metaclass);
         printf("osserialize_serialize: %#llx\n", osserializer_serialize);
-        printf("proc_task: %#llx\n\n", proc_task);
+        printf("proc_task: %#llx\n", proc_task);
+        printf("lel0_sync_vec64_long: %#llx\n\n", kernelptr_bazad;
         
     } else {
         printf("Failed to leak a kernel pointer.\n", NULL);
@@ -70,6 +71,3 @@ int jailbreak()
     }
     return tfp0 != MACH_PORT_NULL && kernelptr_bazad != 0;
 }
-
-
-
